@@ -1,0 +1,48 @@
+.App {
+    text-align: right;
+}
+
+.select-container {
+    margin-bottom: 10px;
+}
+
+.rank_graph_data_form form {
+    margin-bottom: 20px;
+}
+
+.rank_graph_data_form input[type="text"] {
+    margin-bottom: 10px;
+}
+
+.rank_graph_list table {
+    width: 400px;
+}
+
+.rank_graph_list th {
+    border: 1px solid;
+}
+
+.rank_graph_list td {
+    border: 1px solid;
+    text-align: center;
+    justify-content: center;
+}
+
+.rank_graph_entry_wrap .form_graph_wrap {
+    float: left;
+    width: 100%;
+}
+
+.rank_graph_entry_wrap .rank_graph_data_form {
+    float: left;
+    width: 400px;
+}
+
+.rank_graph_entry_wrap #rank_graph_root {
+    float: left;
+    width: 400px;
+}
+
+.rank_graph_entry_wrap {
+    padding: 15px;
+}
