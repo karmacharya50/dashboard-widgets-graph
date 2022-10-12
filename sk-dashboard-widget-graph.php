@@ -6,14 +6,12 @@ Author: Samir Karmacharya
 Version: 0.1.0
 */
 
-
 define ( 'MY_APP_PLUGIN', trailingslashit( plugins_url( '/', __FILE__ ) ) );
 
 register_activation_hook(__FILE__,'postg_activate');
 function postg_activate(){
     include 'include/rank_activation.php';     
 }
-
 
 add_action( 'admin_enqueue_scripts', 'load_scripts' );
 function load_scripts() {
@@ -41,8 +39,7 @@ function wl_rankgraph_list(){
             $i++;
         }    
         return $data;
-    
-  }
+    }
 
 add_action( 'rest_api_init', function () {
     register_rest_route('wl/v1', 'rankgraph', [
@@ -80,8 +77,5 @@ function sk_rank_graph_menu(){
 function sk_rank_graph_file(){
     include 'include/rank_setting.php';  
 }
-
-
- 
 
 ?>
