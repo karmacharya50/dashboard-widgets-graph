@@ -32,7 +32,7 @@ function wl_rankgraph_list(){
         $i = 0;    
         foreach($results as $graph_data) {
             $data[$i]['id'] = $graph_data->id;
-            $data[$i]['Name'] = $i;
+            $data[$i]['Name'] = $graph_data->nanme;
             $data[$i]['UV'] = $graph_data->data_uv;
             $data[$i]['PV'] = $graph_data->data_pv;
             $data[$i]['Value'] = $graph_data->value;           
